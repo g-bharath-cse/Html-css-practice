@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Name — Portfolio</title>
+  <meta name="description" content="Personal portfolio — projects, about and contact">
+  <style>
+    :root{
+      --bg: #0f1724;
+      --card: #0b1220;
+      --muted: #9aa6bd;
+      --accent: #6dd3b9;
+      --glass: rgba(255,255,255,0.03);
+      --max-w: 1100px;
+      --radius: 14px;
+      --ff: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;}
+    body{
+      margin:0;
+      font-family:var(--ff);
+      background:linear-gradient(180deg,#071021 0%, #0f1724 100%);
+      color:#e6eef6;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height:1.5;
+      padding:40px 20px;
+      display:flex;justify-content:center;
+    }
+    .container{width:100%;max-width:var(--max-w);}
+    header{
+      display:flex;align-items:center;justify-content:space-between;
+      gap:20px;margin-bottom:28px;
+    }
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{
+      width:48px;height:48px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#4fbdb0);display:grid;place-items:center;color:#042024;font-weight:700;font-size:18px
+    }
+    nav{display:flex;gap:18px;align-items:center}
+    nav a{color:var(--muted);text-decoration:none;padding:8px 10px;border-radius:10px}
+    nav a:hover{color:var(--accent);background:var(--glass)}
+    .cta{background:linear-gradient(90deg,var(--accent),#3ec6b0);padding:8px 14px;border-radius:10px;color:#042024;font-weight:600;text-decoration:none}
+
+    main{display:grid;grid-template-columns:1fr 380px;gap:28px;align-items:start}
+    /* left column */
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:22px;border-radius:var(--radius);box-shadow: 0 6px 30px rgba(2,6,23,0.6)}
+    .hero{display:flex;gap:20px;align-items:center}
+    .avatar{width:120px;height:120px;border-radius:16px;background:linear-gradient(180deg,#0b1320,#081018);display:grid;place-items:center;font-size:40px;font-weight:700;color:var(--accent)}
+    h1{font-size:22px;margin:0}
+    .role{color:var(--muted);margin-top:6px}
+    .bio{margin-top:14px;color:var(--muted);font-size:15px}
+
+    .skills{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+    .skill{background:rgba(255,255,255,0.03);padding:8px 10px;border-radius:10px;color:var(--muted);font-weight:600}
+
+    .projects{margin-top:18px;display:grid;gap:12px}
+    .project{display:flex;flex-direction:column;background:linear-gradient(180deg, rgba(255,255,255,0.015), rgba(255,255,255,0.01));padding:12px;border-radius:12px}
+    .project h3{margin:0 0 6px 0;font-size:16px}
+    .project p{margin:0;color:var(--muted);font-size:14px}
+    .project .links{margin-top:8px;display:flex;gap:8px}
+    .pill{padding:6px 10px;border-radius:10px;background:rgba(255,255,255,0.02);color:var(--muted);text-decoration:none}
+
+    /* right column */
+    .side{position:sticky;top:28px}
+    .contact-card{display:flex;flex-direction:column;gap:10px}
+    .contact-card input,.contact-card textarea{
+      width:100%;padding:10px;border-radius:10px;background:transparent;border:1px solid rgba(255,255,255,0.04);color:inherit;font-size:14px
+    }
+    .btn{display:inline-block;padding:10px 12px;border-radius:10px;background:var(--accent);color:#042024;font-weight:700;border:none;cursor:pointer}
+
+    footer{margin-top:26px;color:var(--muted);font-size:13px;text-align:center}
+
+    /* responsive */
+    @media (max-width:980px){
+      main{grid-template-columns:1fr}
+      .avatar{width:96px;height:96px}
+      .cta{display:none}
+    }
+
+    /* small animations */
+    .logo, .avatar{transition:transform .25s ease}
+    .logo:hover,.avatar:hover{transform:translateY(-4px)}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">YG</div>
+        <div>
+          <div style="font-weight:700">Your Name</div>
+          <div style="font-size:13px;color:var(--muted)">Frontend developer • Open to work</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a class="cta" href="#contact">Hire me</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <div class="card hero">
+          <div class="avatar">YG</div>
+          <div>
+            <h1>Hi — I'm Your Name</h1>
+            <div class="role">Frontend developer building fast, accessible interfaces.</div>
+            <p class="bio">I craft clean user experiences using HTML, CSS, and JavaScript. I focus on responsive design, performance and accessibility. Below are a few things I’ve built recently.</p>
+
+            <div class="skills" aria-hidden="true">
+              <div class="skill">HTML</div>
+              <div class="skill">CSS</div>
+              <div class="skill">JavaScript</div>
+              <div class="skill">React</div>
+              <div class="skill">Tailwind</div>
+            </div>
+          </div>
+        </div>
+
+        <div id="projects" class="projects">
+          <div class="project card">
+            <h3>Project One</h3>
+            <p>Responsive marketing site with CMS integration and A/B tested hero.</p>
+            <div class="links"><a class="pill" href="#">Live</a><a class="pill" href="#">Code</a></div>
+          </div>
+
+          <div class="project card">
+            <h3>Project Two</h3>
+            <p>Design system and component library used across a product suite.</p>
+            <div class="links"><a class="pill" href="#">Showcase</a><a class="pill" href="#">Code</a></div>
+          </div>
+        </div>
+
+        <footer>
+          Tip: Customize the text, swap the avatar for your photo and link your GitHub/LinkedIn.
+        </footer>
+      </section>
+
+      <aside class="side">
+        <div id="contact" class="card contact-card">
+          <strong>Contact</strong>
+          <input id="name" placeholder="Your name" />
+          <input id="email" placeholder="Your email" />
+          <textarea id="message" rows="5" placeholder="Short message"></textarea>
+          <button class="btn" id="send">Send message</button>
+          <div style="font-size:13px;color:var(--muted);margin-top:8px">Or email: <a style="color:var(--accent);text-decoration:none" href="mailto:you@example.com">you@example.com</a></div>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <strong>Quick links</strong>
+          <div style="display:flex;flex-direction:column;gap:8px;margin-top:8px">
+            <a class="pill" href="#">GitHub</a>
+            <a class="pill" href="#">LinkedIn</a>
+            <a class="pill" href="#">Resume</a>
+          </div>
+        </div>
+      </aside>
+    </main>
+  </div>
+
+  <script>
+    // Simple client-side form validation (no network call)
+    document.getElementById('send').addEventListener('click', function(){
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const message = document.getElementById('message').value.trim();
+      if(!name || !email || !message){
+        alert('Please fill name, email and a short message.');
+        return;
+      }
+      // fake success
+      this.textContent = 'Sent ✓';
+      this.disabled = true;
+      setTimeout(()=>{this.textContent = 'Send message'; this.disabled = false;}, 2000);
+    });
+  </script>
+</body>
+</html>
