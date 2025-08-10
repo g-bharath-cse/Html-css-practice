@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startup Landing Page</title>
+   <style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Navbar */
+header {
+    background: #111;
+    padding: 15px 0;
+}
+
+nav {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00c3ff;
+}
+
+/* Banner Section */
+.banner {
+    background: linear-gradient(135deg, #00c3ff, #0061ff);
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.banner h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.banner p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    background: #fff;
+    color: #0061ff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #e2e2e2;
+}
+
+/* Features Section */
+#features {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.features-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.feature-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Pricing Section */
+#pricing {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.pricing-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pricing-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+.highlight {
+    border: 2px solid #0061ff;
+}
+
+.pricing-card ul {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.pricing-card ul li {
+    padding: 5px 0;
+}
+
+/* Footer */
+footer {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #00c3ff;
+    text-decoration: none;
+}
+
+   </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">TechStart</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner Section -->
+    <section class="banner" id="home">
+        <h1>Launch Your Startup with Confidence</h1>
+        <p>Build, grow, and scale your business with our all-in-one platform.</p>
+        <a href="#features" class="btn">Get Started</a>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <h2>Why Choose Us?</h2>
+        <div class="features-container">
+            <div class="feature-card">
+                <h3>🚀 Fast Performance</h3>
+                <p>Optimized tools to keep your business running smoothly and efficiently.</p>
+            </div>
+            <div class="feature-card">
+                <h3>🔒 Secure Platform</h3>
+                <p>We ensure top-level security for your data and transactions.</p>
+            </div>
+            <div class="feature-card">
+                <h3>📱 Mobile Friendly</h3>
+                <p>Access your dashboard anywhere, anytime, on any device.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing">
+        <h2>Our Pricing</h2>
+        <div class="pricing-container">
+            <div class="pricing-card">
+                <h3>Basic</h3>
+                <p>$19/month</p>
+                <ul>
+                    <li>✔ Basic Features</li>
+                    <li>✔ Email Support</li>
+                    <li>❌ Premium Tools</li>
+                </ul>
+                <a href="#" class="btn">Choose Plan</a>
+            </div>
+            <div class="pricing-card highlight">
+                <h3>Pro</h3>
+                <p>$49/month</p>
+                <ul>
+                    <li>✔ All Basic Features</li>
+                    <li>✔ Premium Tools</li>
+                    <li>✔ Priority Support</li>
+                </ul>
+                <a href="#" class="btn">Choose Plan</a>
+            </div>
+            <div class="pricing-card">
+                <h3>Enterprise</h3>
+                <p>$99/month</p>
+                <ul>
+                    <li>✔ Unlimited Access</li>
+                    <li>✔ Custom Solutions</li>
+                    <li>✔ Dedicated Manager</li>
+                </ul>
+                <a href="#" class="btn">Choose Plan</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <p>Contact us: <a href="mailto:info@techstart.com">info@techstart.com</a></p>
+        <p>&copy; 2025 TechStart. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
