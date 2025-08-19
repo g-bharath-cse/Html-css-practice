@@ -1,0 +1,550 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 13px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: rgb(145, 145, 145);
+    background-color: rgb(35, 35, 35);
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper{
+    display: block;
+    text-align: left;
+    width: 100%;
+    
+}
+.row1, .row1 a {
+    color: rgb(192, 186, 182);
+    background-color: rgb(51, 51, 51);
+}
+
+#header,#container{
+    padding: 20px 0;
+    width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+}
+#header #hgroup{
+    float: left;
+    margin: 0 0 20px;
+
+}
+#header #hgroup h1{
+    font-size: 36px;
+
+}
+#header #hgroup h1,#header #hgroup h2{
+    font-weight: normal;
+    text-transform: none;
+}
+#header #hgroup h2{
+    font-size: 13px;
+}
+#header nav{
+    display: block;
+    color: rgb(192, 186, 182);
+    background-color: rgb(35, 35, 35);
+    /* float: right; */
+    margin:10px 0 0 ;
+    padding: 20px 0;
+}
+#header nav ul{
+    padding: 0 20px;
+    list-style: none;
+}
+#header nav ul li{
+    display: inline;
+    margin-right: 25px;
+
+}
+#header nav ul li a{
+    color: rgb(192, 186, 182);
+    background-color: rgb(35, 35, 35);
+}
+#header nav ul .last{
+    margin-right: 0;
+}
+.row2 {
+    color: rgb(151, 151, 151);
+    background-color: rgb(255, 255, 255);
+}
+#slider{
+    margin-bottom: 50px;
+}
+#container #homepage #services {
+    padding: 0px 0px 30px;
+    border-bottom: 1px solid rgb(222, 222, 222);
+    overflow: auto;
+}
+#container section {
+    display: block;
+    width: 100%;
+    margin: 0px 0px 30px;
+    padding: 0px;
+}
+.clear{
+    clear: both;
+}
+.one_quarter{
+    width: 225px;
+}
+.one_quarter, .two_quarter, .three_quarter, .four_quarter {
+    display: block;
+    float: left;
+    margin: 0px 20px 0px 0px;
+}
+#container #homepage #services figure {
+    display: inline;
+    float: left;
+}
+#container #homepage #services strong {
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 8px 0px 0px 10px;
+    padding: 0px;
+}
+#container #homepage #services p {
+    display: block;
+    clear: both;
+    line-height: 1.6em;
+    margin: 0px;
+    padding: 5px 0px 0px;
+}
+#container #homepage #services p {
+    display: block;
+    clear: both;
+    line-height: 1.6em;
+    margin: 0px;
+    padding: 5px 0px 0px;
+}
+#container .more {
+    text-align: right;
+}
+.row2 a {
+    color: rgb(255, 153, 0);
+    background-color: rgb(255, 255, 255);
+}
+.last{
+    margin-right: 0;
+}
+#container #homepage #latest {
+    padding: 0px 0px 30px;
+    border-bottom: 1px solid rgb(222, 222, 222);
+    overflow: auto;
+}
+#container #homepage #latest article figure ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.one_third {
+    width: 300px;
+}
+.one_third, .two_third, .three_third {
+    display: block;
+    float: left;
+    margin: 0px 30px 0px 0px;
+}
+#container #homepage #services {
+    padding: 0px 0px 30px;
+    border-bottom: 1px solid rgb(222, 222, 222);
+    overflow: auto;
+}
+#container section {
+    display: block;
+    width: 100%;
+    margin: 0px 0px 30px;
+    padding: 0px;
+}
+.clear{
+    clear: both;
+}
+.one_quarter{
+    width: 225px;
+}
+.one_quarter, .two_quarter, .three_quarter, .four_quarter {
+    display: block;
+    float: left;
+    margin: 0px 20px 0px 0px;
+}
+#container #homepage #services figure {
+    display: inline;
+    float: left;
+}
+#container #homepage #services strong {
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 8px 0px 0px 10px;
+    padding: 0px;
+}
+#container #homepage #services p {
+    display: block;
+    clear: both;
+    line-height: 1.6em;
+    margin: 0px;
+    padding: 5px 0px 0px;
+}
+#container #homepage #services p {
+    display: block;
+    clear: both;
+    line-height: 1.6em;
+    margin: 0px;
+    padding: 5px 0px 0px;
+}
+#container .more {
+    text-align: right;
+}
+.row2 a {
+    color: rgb(255, 153, 0);
+    background-color: rgb(255, 255, 255);
+}
+.last{
+    margin-right: 0;
+}
+#container #homepage #latest {
+    padding: 0px 0px 30px;
+    border-bottom: 1px solid rgb(222, 222, 222);
+    overflow: auto;
+}
+#container #homepage #latest article figure ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.one_third {
+    width: 299px;
+}
+.one_third, .two_third, .three_third {
+    display: block;
+    float: left;
+    margin: 0px 30px 0px 0px;
+}
+#container #homepage #latest article figure ul li img {
+    padding: 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(214, 214, 214);
+    border-image: initial;
+}
+ #latest article figure ul .last{
+    margin-right: 0;
+ }
+#container #homepage #latest article figure figcaption {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    text-align: right;
+}
+#latest article figure ul{
+        overflow: auto;}
+        #container #content {
+    float: left;
+    width: 630px;
+    line-height: 1.6em;
+}
+#container #content #posts ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+user agent stylesheet
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+#container #content #posts ul li {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.clear {
+    display: block;
+    clear: both;
+}
+.clear {
+    display: block;
+    clear: both;
+}
+address, article, aside, figcaption, figure, footer, header, nav, section {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+address, article, aside, figcaption, figure, footer, header, nav, section {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+#container #content #posts ul li article figure img {
+    float: left;
+    width: 180px;
+    height: 150px;
+    margin: 0;
+    padding: 4px;
+    border: 1px solid #D6D6D6;
+}
+#container #content #posts ul li article figure figcaption {
+    display: block;
+    float: right;
+    width: 410px;
+}
+address, article, aside, figcaption, figure, footer, header, nav, section {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+#container #content #posts ul li article figure h2 {
+    font-size: 14px;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.row2 a {
+    color: #FF9900;
+    background-color: #FFFFFF;
+}
+#container .more {
+    text-align: right;
+}
+address, article, aside, figcaption, figure, footer, header, nav, section {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+#container #content #posts ul li.last {
+    margin-bottom: 0;
+}
+#container #content #posts ul li {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+#container .last {
+    margin: 0;
+}
+.clear {
+    display: block;
+    clear: both;
+}
+address, article, aside, figcaption, figure, footer, header, nav, section {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+address, article, aside, figcaption, figure, footer, header, nav, section {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    unicode-bidi: isolate;
+}
+#container #content #posts ul li article figure img {
+    float: left;
+    width: 180px;
+    height: 150px;
+    margin: 0;
+    padding: 4px;
+    border: 1px solid #D6D6D6;
+}
+#container #content #posts ul li article figure figcaption {
+    display: block;
+    float: right;
+    width: 410px;
+}
+address, article, aside, figcaption, figure, footer, header, nav, section {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+#container #content #posts ul li article figure h2 {
+    font-size: 14px;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: normal;
+    text-transform: uppercase;
+}
+user agent stylesheet
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+#container #content #posts ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#container .more {
+    text-align: right;
+}
+address, article, aside, figcaption, figure, footer, header, nav, section {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.clear figure figcaption footer a{
+    margin-left: 300px;
+}
+#container #content #posts ul li article figure h2 {
+    font-size: 14px;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: normal;
+    text-transform: uppercase;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+#container #right_column {
+    float: right;
+    width: 280px;
+}
+address, article, aside, figcaption, figure, footer, header, nav, section {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+#container #right_column h2.title {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #DEDEDE;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: normal;
+    text-transform: uppercase;
+}
+#container #right_column nav {
+    display: block;
+    width: 100%;
+}
+address, article, aside, figcaption, figure, footer, header, nav, section {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+#container #right_column nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#container #right_column nav li {
+    margin: 0 0 3px 0;
+    padding: 0;
+}
+#container #right_column nav li.last {
+    margin-bottom: 0;
+}
+#container #right_column nav li {
+    margin: 0 0 3px 0;
+    padding: 0;
+}
+#container .last {
+    margin: 0;
+}
+#container #right_column nav a {
+    display: block;
+    margin: 0;
+    padding: 5px 10px 5px 20px;
+    color: #666666;
+    background: url(../images/orange_file.gif) no-repeat 10px center #FFFFFF;
+    text-decoration: none;
+    border-bottom: 1px dotted #666666;
+}
+
+.row2 a {
+    color: #FF9900;
+    background-color: #FFFFFF;
+}
+ .title nav ul li {
+    
+}
+.row3, .row3 a {
+    color: #919191;
+    background-color: #232323;
+}
+#footer {
+    padding: 20px 0;
+}
+#header, #container, #footer {
+    display: block;
+    width: 960px;
+    margin: 0 auto;
+}
+.clear {
+    display: block;
+    clear: both;
+}
+.clear {
+    display: block;
+    clear: both;
+}
+address, article, aside, figcaption, figure, footer, header, nav, section {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+#footer p {
+    margin: 0;
+    padding: 0;
+}
+.row3, .row3 a {
+    color: #919191;
+    background-color: #232323;
+}
+#content #posts ul li figure img{
+    padding-bottom: 50px;}
+    
